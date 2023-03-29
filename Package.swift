@@ -22,7 +22,7 @@ let package = Package(
 	
 	dependencies:
 	[
-		.package(name: "UXCam", url: "https://github.com/uxcam/ios-sdk", from: Version(3, 5, 0)),
+        .package(name: "UXCam", url: "https://github.com/uxcam/ios-sdk", Version(0, 0, 0)...Version(3, 5, 3))
 	],
 	
     targets: 
